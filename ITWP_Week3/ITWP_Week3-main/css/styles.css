@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+th  {
+    background-color: #b7d0ff;
+    font: bold;
+    padding: 12px 0px 12px 6px;
+    border-bottom: solid gray 2px;
+}
+
+tr:nth-child(even)  {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd)   {
+    background-color: #ffffff;
+}
+
+td  {
+    padding: 6px;
+    border-bottom: solid 1px grey;
+}
+
+table   {
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+.center {
+    margin: auto;
+    padding: 60px;
+    width: 60%;
+}

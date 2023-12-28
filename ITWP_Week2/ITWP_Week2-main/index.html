@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/basic.js" defer></script>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr><th align="left">Username</th><th align="left">Email</th><th align="left">Adress</th><th align="left">Admin</th></tr>
+        </thead>
+        <tbody id="tableBody">
+            <tr id="testRow1"><td></td><td></td><td></td><td></td></tr>
+            <tr id="testRow2"><td></td><td></td><td></td><td></td></tr>
+            <tr id="testRow3"><td></td><td></td><td></td><td></td></tr>
+        </tbody>
+    </table>
+    <br>
+    <fieldset>
+        <legend>Add new user</legend>
+        <label for="Username">Write username: </label>
+        <input type="text" name="Username" id="input-username" placeholder="Username">
+        <br>
+        <label for="Email">Write email: </label>
+        <input type="text" name="Email" id="input-email" placeholder="Email">
+        <br>
+        <label for="Address">Write address: </label>
+        <input type="text" name="Address" id="input-address" placeholder="Address">
+        <br><br>
+        <label for="Admin">Check if you are admin: </label>
+        <input type="checkbox" name="Admin" id="input-admin">
+        <br><br>
+        <input type="file" name="File" id="input-image">
+        <br><br>
+        <button id="submit-data">Submit</button>
+    </fieldset>
+    <br>
+    <button id="empty-table">Delete all users</button>
+</body>
+</html>
