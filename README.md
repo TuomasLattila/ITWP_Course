@@ -1,2 +1,2 @@
 # ITWP_Course
-Introduction to web programming course
+Introduction to web programming course weekly assignments.
